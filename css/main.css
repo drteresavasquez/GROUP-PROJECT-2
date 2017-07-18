@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+/*Font-color: #404040
+Buttons
+Blue: #5DBCD2
+
+Links
+Green: #51AE66
+Red Orange: #ED412D*/
+
+body{
+	font-family: "Open Sans";
+}
+
+main{
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	padding-top: 20px;
+}
+
+h1, h2, h3{
+	font-family: "Open Sans";
+
+}
+
+h1{
+	text-align: center;
+}
+
+
+/* -- HEADER & NAVIGATION -- */
+header{
+	background-image: url('../images/homepage-img.png');
+	width: 100%;
+	margin-left: -10px;
+/*	margin-top: -20px;*/
+	padding-right: 20px;
+	height: 100%;
+}
+
+.socialbar{
+	background-color:#000;
+	margin-top:-15px;
+	margin-left: -10px;
+	padding-right: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	display: -webkit-flex;
+	display: flex;
+}
+
+	ul.social-nav {
+	list-style-type: none;
+}
+
+	.social-nav {
+  display: -webkit-flex;
+  display: flex;
+
+}
+	.social-nav li:first-child {
+  margin-right: auto;
+
+}
+
+.social-nav li{
+	margin: 2px;
+}
+
+.social-nav img{
+	width: 25px;
+}
+
+nav{
+/*	background-color:#5DBCD2;*/
+	margin-top:-8px;
+	margin-left: -10px;
+	padding-right: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.main-nav {
+  display: -webkit-flex;
+  display: flex;
+
+}
+
+.main-nav img{
+	width: 190px;
+	margin-top: -100px;
+	margin-left: 50px;
+}
+
+ul.main-nav {
+	list-style-type: none;
+}
+
+.main-nav li:first-child {
+  margin-right: auto;
+}
+
+.main-nav a {
+	font-family: "Arial";
+	font-size: 1.15em;
+	margin: 10px;
+	color: #FFF;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.main-nav li a:hover{
+	color: #FDE948;
+}
+
+ul.main-nav li.here>a{
+	border-bottom: 3px solid #FDE948;
+	color: #FDE948;
+}
+
+
+li.none a{
+	margin: 0;
+	padding: 0px;
+}
+
+li.none a:hover{
+	margin: 0;
+	background-color: #BBCDB3;
+}
+
+
+
+
+footer{
+	position: absolute;
+	width: 100%;
+	margin-top: -15px;
+	font-size: .75em;
+	text-align: left;
+	font-family: "Open Sans";
+	background-color: #000;
+	color: #FFF;
+	margin-left: -10px;
+	padding: 30px 0px 00px 5px;
+}
+
+footer img{
+	 display: block;
+	 float: right;
+	 width:60px;
+	 padding-bottom: 10px;
+	 padding-right: 20px;
+	 margin-top: -15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
